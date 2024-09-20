@@ -25,3 +25,10 @@
     font-weight: 400;
     font-style:normal;
 }
+
+@media (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    body {
+        font-size: 14px;
+    }
+}
