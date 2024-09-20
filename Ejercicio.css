@@ -27,8 +27,9 @@
 }
 
 @media (max-width: 600px) {
-    /* Estilos para pantallas pequeñas */
-    body {
+    /* Ajustes para pantallas pequeñas */
+    .mi-clase {
         font-size: 14px;
+        padding: 10px;
     }
 }
