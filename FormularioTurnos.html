@@ -15,11 +15,13 @@
 </head>
 
 <body class="body">
-    <!-- BARRA DE NAVEGACIÓN -->
-    <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <!-- BARRA DE NAVEGACION -->
+     <div>
+        <nav class="navbar navbar-expand-lg bg-lightcoral custom-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand FuenteTitulo" href="index.html">LA CUCHA</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo.jpg" alt="Bootstrap" width="60" height="60">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +30,36 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Productos.html">Productos</a>
+                            <a class="btn botones" aria-current="page" href="Productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="FormularioTurnos.html">Turnos</a>
+                            <a class="btn botones" aria-current="page" href="FormularioTurnos.html">Turnos</a>
                         </li>
                     </ul>
+                    <!-- Carrito desplegable -->
+                    <div class="dropdown">
+                        <button class="btn botones" type="button" id="dropdownCartButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Carrito <span id="cart-count" class="badge bg-primary">0</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end p-3" style="width: 300px;"
+                            aria-labelledby="dropdownCartButton">
+                            <li>
+                                <h5>Carrito</h5>
+                            </li>
+                            <li>
+                                <hr>
+                            </li>
+                            <ul id="cart-items" class="list-group mb-3"></ul>
+                            <li><strong>Total: $<span id="cart-total">0</span></strong></li>
+                            <div class="cart-container">
+                                <button class="btn btn-success botones" onclick="checkout()">Comprar</button>
+                            </div>
+                        </ul>
+                    </div>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-outline-success botones" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>

@@ -3,21 +3,16 @@
 }
 
 .body {
-    background-color: lightgreen;
+    background-color: rgb(253, 232, 250);
 }
-
+.custom-navbar {
+    background-color: lightcoral; /* Cambiar a lightcoral */
+}
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-}
-
-
-.FuenteTitulo {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .FontSubTitulo {
@@ -32,4 +27,40 @@
         font-size: 14px;
         padding: 10px;
     }
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.payment-method img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.order-summary {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.order-summary h4 {
+    margin-bottom: 20px;
+}
+
+.botones {
+    background: rgb(235, 204, 228);
+    margin-right: 10px;
+    border: none; 
+    color: #000; 
+}
+
+.botones:hover {
+    background: lightpink; 
+
 }

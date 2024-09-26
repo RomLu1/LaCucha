@@ -1,4 +1,4 @@
-
+//ENVIO DE TURNO A WSP
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('turnosForm');
     if (form) {
@@ -27,3 +27,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     } 
 });
+
