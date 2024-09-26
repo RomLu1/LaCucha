@@ -3,7 +3,7 @@
 }
 
 .body {
-    background-color: rgb(253, 232, 250);
+    background-color: rgb(212, 209, 212);
 }
 .custom-navbar {
     background-color: lightcoral; /* Cambiar a lightcoral */
@@ -54,14 +54,15 @@
 }
 
 .botones {
-    
     background: rgb(235, 204, 228);
     margin-right: 10px;
     border: none; 
     color: #000; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .botones:hover {
     background: lightpink; 
-
 }
+
