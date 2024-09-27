@@ -50,3 +50,4 @@ function checkout() {
     // Redirigir a WhatsApp
     window.open(url, '_blank');
 }
+
