@@ -68,3 +68,5 @@ productos.forEach(producto => {
     `;
     productosContainer.innerHTML += card;
 });
+
+

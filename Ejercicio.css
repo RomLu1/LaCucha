@@ -21,6 +21,14 @@
     font-style: normal;
   }
   
+  .FuenteSubtitulos {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  
 
 @media (max-width: 600px) {
     /* Ajustes para pantallas pequeñas */
