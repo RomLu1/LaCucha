@@ -5,68 +5,69 @@ const productos = [
     {
         nombre: "¡Chumbale! perros 21KG",
         precio: 15000,
-        imagen: "Alimentos/chumbale.jpg"
+        imagen: "Alimentos/chumbalePerro.png"
     },
     {
         nombre: "¡Chumbale! perros 3KG",
         precio: 2200,
-        imagen: "Alimentos/chumbale.jpg"
+        imagen: "Alimentos/chumbalePerro.png"
     },
     {
         nombre: "DR.PERROT 20KG",
         precio: 20000,
-        imagen: "Alimentos/Dr.perrotAdulto.jpeg.png"
+        imagen: "Alimentos/Dr.Perrot.png"
     },
     {
         nombre: "DR.PERROT 3KG",
         precio: 3000,
-        imagen: "Alimentos/Dr.perrotAdulto.jpeg.png"
-    },
+        imagen: "Alimentos/Dr.Perrot.png"
+    }
+    ,
     {
         nombre: "TURBO CAN 3KG",
         precio: 2300,
-        imagen: "Alimentos/TurboCanAdulto.jpeg"
+        imagen: "Alimentos/TurboCan.png"
 
     },
     {
         nombre: "TURBO CAN 20KG",
         precio: 0,
-        imagen: "Alimentos/TurboCanAdulto.jpeg"
+        imagen: "Alimentos/TurboCan.png"
 
     }
     ,
     {
         nombre: "RAZA Adulto 1.5KG",
         precio: 3500,
-        imagen: "Alimentos/RazaAdultos.jpeg"
+        imagen: "Alimentos/RazaAdultos.png"
 
     }
     ,
     {
         nombre: "RAZA Cachorro 1.5KG",
         precio: 3500,
-        imagen: "Alimentos/RazaCachorros.jpeg"
+        imagen: "Alimentos/RazaCachorros.png"
 
     }
     ,
     {
         nombre: "KONGO 21KG",
         precio: 0,
-        imagen: "Alimentos/Kongo.jpeg"
+        imagen: "Alimentos/Kongo.png"
 
     }
     ,
     {
         nombre: "DOGUI Adulto 1.5KG",
         precio: 4000,
-        imagen: "Alimentos/DoguiAdulto.jpg"
+        imagen: "Alimentos/DoguiAdulto.png"
 
     }
     ,
     {
         nombre: "DOGUI Adulto 21KG",
         precio: 0,
-        imagen: "Alimentos/DoguiAdulto.jpg"
+        imagen: "Alimentos/DoguiAdulto.png"
 
     }
     ,
@@ -87,160 +88,160 @@ const productos = [
     {
         nombre: "Dog Selection Adulto Mordida Grande 1.5KG",
         precio: 4500,
-        imagen: "Alimentos/DogSelectionAdulto.jpg"
+        imagen: "Alimentos/DogSelectionAdulto.png"
 
     }
     ,
     {
         nombre: "Dog Selection Adulto Mordida Grande 21KG",
         precio: 0,
-        imagen: "Alimentos/DogSelectionAdulto.jpg"
+        imagen: "Alimentos/DogSelectionAdulto.png"
 
     }
     ,
     {
         nombre: "Dog Selection Adulto Raza Pequeña 1.5KG",
         precio: 4500,
-        imagen: "Alimentos/DogSelectionAdultoRazaPequeña.jpeg"
+        imagen: "Alimentos/DogSelectionAdultoRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Dog Selection Adulto Raza Pequeña 21KG",
         precio: 0,
-        imagen: "Alimentos/DogSelectionAdultoRazaPequeña.jpeg"
+        imagen: "Alimentos/DogSelectionAdultoRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Dog Selection Cachorro 1.5KG",
         precio: 4500,
-        imagen: "Alimentos/DogSelectionCachorros.jpeg"
+        imagen: "Alimentos/DogSelectionCachorros.png"
 
     }
     ,
     {
         nombre: "Dog Selection Cachorro 21KG",
         precio: 0,
-        imagen: "Alimentos/DogSelectionCachorros.jpeg"
+        imagen: "Alimentos/DogSelectionCachorros.png"
 
     }
     ,
     {
         nombre: "Pedigree Adulto Mordida Grande 1.5KG",
         precio: 5000,
-        imagen: "Alimentos/pedigreeAdulto.jpeg"
+        imagen: "Alimentos/PedigreeAdulto.png"
 
     }
     ,
     {
         nombre: "Pedigree Adulto Mordida Grande 21KG",
         precio: 0,
-        imagen: "Alimentos/pedigreeAdulto.jpeg"
+        imagen: "Alimentos/PedigreeAdulto.png"
 
     }
     ,
     {
         nombre: "Pedigree Adulto Raza Pequeña 1.5KG",
         precio: 5000,
-        imagen: "Alimentos/PedigreeRazaPequeña.jpeg"
+        imagen: "Alimentos/PedigreeRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Pedigree Adulto Raza Pequeña 21KG",
         precio: 0,
-        imagen: "Alimentos/PedigreeRazaPequeña.jpeg"
+        imagen: "Alimentos/PedigreeRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Pedigree Cachorro 1.5KG",
         precio: 5000,
-        imagen: "Alimentos/PedigreeCachorro.jpeg"
+        imagen: "Alimentos/PedigreeCachorros.png"
 
     }
     ,
     {
         nombre: "Pedigree Cachorro 21KG",
         precio: 0,
-        imagen: "Alimentos/PedigreeCachorro.jpeg"
+        imagen: "Alimentos/PedigreeCachorros.png"
 
     }
     ,
     {
         nombre: "Dog Chow Raza Pequeña 1.5KG",
         precio: 6500,
-        imagen: "Alimentos/DogChowAdultoChico.jpeg"
+        imagen: "Alimentos/DogChowAdultoRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Dog Chow Raza Pequeña 21KG",
         precio: 0,
-        imagen: "Alimentos/DogChowAdultoChico.jpeg"
+        imagen: "Alimentos/DogChowAdultoRazaPequeña.png"
 
     }
     ,
     {
         nombre: "Dog Chow Cachorro 1.5KG",
         precio: 6500,
-        imagen: "Alimentos/DogChowCachorro.jpeg"
+        imagen: "Alimentos/DogChowPuppy.png"
 
     }
     ,
     {
         nombre: "Dog Chow Cachorro 21KG",
         precio: 0,
-        imagen: "Alimentos/DogChowCachorro.jpeg"
+        imagen: "Alimentos/DogChowPuppy.png"
 
     }
     ,
     {
         nombre: "Pro Plan Adulto  1KG",
         precio: 10000,
-        imagen: "Alimentos/ProPlanAdulto.jpg"
+        imagen: "Alimentos/ProPlanAdultos.png"
 
     }
     ,
     {
         nombre: "Pro Plan Adulto  15KG",
         precio: 0,
-        imagen: "Alimentos/ProPlanAdulto.jpg"
+        imagen: "Alimentos/ProPlanAdultos.png"
 
     }
     ,
     {
         nombre: "Pro Plan Puppy  1KG",
         precio: 11000,
-        imagen: "Alimentos/ProPlanCachorro.jpg"
+        imagen: "Alimentos/ProPlanPuppy.png"
 
     }
     ,
     {
         nombre: "Pro Plan Adulto  15KG",
         precio: 0,
-        imagen: "Alimentos/ProPlanCachorro.jpg"
+        imagen: "Alimentos/ProPlanPuppy.png"
 
     }
     ,
     {
         nombre: "Vital Balanced 20KG",
         precio: 0,
-        imagen: "Alimentos/VitalBalanced.jpeg"
+        imagen: "Alimentos/VitalBalanced.png"
 
     }
     ,
     {
         nombre: "Estampa 20KG",
         precio: 0,
-        imagen: "Alimentos/EstampaAdultos.jpeg"
+        imagen: "Alimentos/Estampa.png"
     }
     ,
     {
         nombre: "Eukanuba 15KG",
         precio: 0,
-        imagen: "Alimentos/EukanubaAdulto.jpeg"
+        imagen: "Alimentos/Eukanuba.png"
 
     }
     //GATOS
@@ -249,148 +250,148 @@ const productos = [
     {
         nombre: "¡Chumbale! Gatos 1KG",
         precio: 2200,
-        imagen: "Alimentos/ChumbaleGatos.png"
+        imagen: "Alimentos/ChumbaleGato.png"
 
     }
     ,
     {
         nombre: "¡Chumbale! Gatos 15KG",
         precio: 0,
-        imagen: "Alimentos/ChumbaleGatos.png"
+        imagen: "Alimentos/ChumbaleGato.png"
 
     }
     ,
     {
         nombre: "Vagoneta Gatos 1KG",
         precio: 1900,
-        imagen: "Alimentos/VagonetaGatos.jpeg"
+        imagen: "Alimentos/Vagoneta.png"
 
     }
     ,
     {
         nombre: "Vagoneta Gatos 15KG",
         precio: 0,
-        imagen: "Alimentos/VagonetaGatos.jpeg"
+        imagen: "Alimentos/Vagoneta.png"
     }
     ,
     {
         nombre: "Cooperacion Gatos 1KG",
         precio: 2200,
-        imagen: "Alimentos/CooperacionGatos.jpg"
+        imagen: "Alimentos/CooperacionGatos.png"
     }
     ,
     {
         nombre: "Cooperacion Gatos 10KG",
         precio: 0,
-        imagen: "Alimentos/CooperacionGatos.jpg"
+        imagen: "Alimentos/CooperacionGatos.png"
     }
     ,
     {
         nombre: "Nutribon Gatos 1KG",
         precio: 2200,
-        imagen: "Alimentos/NutribonGatosAdultos.jpeg"
+        imagen: "Alimentos/NutriBon.png"
     }
     ,
     {
         nombre: "Nutribon Gatos 20KG",
         precio: 0,
-        imagen: "Alimentos/NutribonGatosAdultos.jpeg"
+        imagen: "Alimentos/NutriBon.png"
     }
     ,
     {
         nombre: "RAZA Gatos 1KG",
         precio: 3500,
-        imagen: "Alimentos/RazaGato.png"
+        imagen: "Alimentos/RazaGatosAdultos.png"
     }
     ,
     {
         nombre: "RAZA Gatos 10KG",
         precio: 0,
-        imagen: "Alimentos/RazaGato.png"
+        imagen: "Alimentos/RazaGatosAdultos.png"
     }
     ,
     {
         nombre: "RAZA Gatitos 1KG",
         precio: 4000,
-        imagen: "Alimentos/RazaGatitos.jpg"
+        imagen: "Alimentos/RazaGatitos.png"
     }
     ,
     {
         nombre: "RAZA Gatitos 10KG",
         precio: 0,
-        imagen: "Alimentos/RazaGatitos.jpg"
+        imagen: "Alimentos/RazaGatitos.png"
     }
     ,
     {
         nombre: "Gati 1KG",
         precio: 3500,
-         imagen: "Alimentos/PurinaGatiAdultoCarne.jpeg"
+        imagen: "Alimentos/GatiAdultos.png"
     }
     ,
     {
         nombre: "Gati 15KG",
         precio: 0,
-        imagen: "Alimentos/PurinaGatiAdultoCarne.jpeg"
+        imagen: "Alimentos/GatiAdultos.png"
     }
     ,
     {
         nombre: "Whiskas 1KG",
         precio: 4900,
-        imagen: "Alimentos/WhiskasCarne.jpeg"
+        imagen: "Alimentos/WhiskasAdultos.png"
     }
     ,
     {
         nombre: "Whiskas 15KG",
         precio: 0,
-        imagen: "Alimentos/WhiskasCarne.jpeg"
+        imagen: "Alimentos/WhiskasAdultos.png"
     }
     ,
     {
         nombre: "Whiskas Gatitos 1KG",
         precio: 5400,
-        imagen: "Alimentos/WhiskasGatitos.jpeg"
+        imagen: "Alimentos/WhiskasGatitos.png"
     }
     ,
     {
         nombre: "Cat Chow 1KG",
         precio: 6500,
-        imagen: "Alimentos/CatChowAdultos.jpeg"
+        imagen: "Alimentos/CatChowGatos.png"
     }
     ,
     {
         nombre: "Cat Chow 15KG",
         precio: 0,
-        imagen: "Alimentos/CatChowAdultos.jpeg"
+        imagen: "Alimentos/CatChowGatos.png"
     }
     ,
     {
         nombre: "Cat Chow Gatitos 1KG",
         precio: 0,
-        imagen: "Alimetos/CatChow"
+        imagen: "Alimentos/CatChowGatitos.png"
     }
     ,
     {
         nombre: "Excellent Adulto 1KG",
         precio: 9000,
-        imagen: "Alimentos/ExcellentGatoAdulto.jpg"
+        imagen: "Alimentos/ExcellentAdultos.png"
     }
     ,
     {
         nombre: "Excellent Adulto 15KG",
         precio: 0,
-        imagen: "Alimentos/ExcellentGatoAdulto.jpg"
+        imagen: "Alimentos/ExcellentAdultos.png"
     }
     ,
     {
         nombre: "Excellent Urinary 1KG",
         precio: 10000,
-        imagen: "Alimentos/ExcellentGatoUrinary.png"
+        imagen: "Alimentos/ExcellentUrinary.png"
     }
     ,
     {
         nombre: "Excellent Urinary 15KG",
         precio: 0,
-        imagen: "Alimentos/ExcellentGatoUrinary.png"
+        imagen: "Alimentos/ExcellentUrinary.png"
     }
     ,
     {
@@ -408,135 +409,135 @@ const productos = [
     {
         nombre: "Vital Cat Premium 1KG",
         precio: 3300,
-        imagen: "Alimentos/VitalCatPremium.png"
+        imagen: "Alimentos/VitalCatGatos.png"
     }
     ,
     {
         nombre: "Vital Cat Premium 7.5KG",
         precio: 0,
-        imagen: "Alimentos/VitalCatPremium.png"
+        imagen: "Alimentos/VitalCatGatos.png"
     }
     ,
     {
         nombre: "Vital Cat Premium Urinary 1KG",
         precio: 4000,
-        imagen: "Alimentos/VitalCatPremiumUrinario.jpeg"
+        imagen: "Alimentos/VitalCatUrinary.png"
     }
     ,
     {
         nombre: "Vital Cat Premium Urinary 7.5KG",
         precio: 0,
-        imagen: "Alimentos/VitalCatPremiumUrinario.jpeg"
+        imagen: "Alimentos/VitalCatUrinary.png"
     }
     ,
     {
         nombre: "Vital Cat Premium Gatitos 1KG",
         precio: 4000,
-        imagen: "Alimentos/VitalCatPremiumGatitos.jpeg"
+        imagen: "Alimentos/VitalCatGatitos.png"
     }
     ,
     {
         nombre: "Vital Cat Premium Gatitos 7.5KG",
         precio: 0,
-        imagen: "Alimentos/VitalCatPremiumGatitos.jpeg"
+        imagen: "Alimentos/VitalCatGatitos.png"
     }
     ,
     {
         nombre: "Pro Plan Urinary 1KG",
         precio: 18000,
-        imagen: "Alimentos/ProPlanGatoUrinary.jpg"
+        imagen: "Alimentos/ProPlanUrinary.png"
     }
     ,
     {
         nombre: "Piedras Sanitarias Absorsol 2KG",
         precio: 0,
-        imagen: "Productos/PiedrasAbsorsol.jpg"
+        imagen: "Productos/PiedrasAbsorsol.png"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best 1.8KG",
         precio: 0,
-        imagen: "Productos/The Best.jpg"
+        imagen: "Productos/PiedrasTheBest.png"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best 3KG",
         precio: 0,
-        imagen: "Productos/The Best.jpg"
+        imagen: "Productos/PiedrasTheBest.png"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best Lavanda 3KG",
         precio: 0,
-        imagen: "Productos/The Best.jpg"  
+        imagen: "Productos/PiedrasTheBest.png"
     }
     ,
     {
         nombre: "Piedras Sanitarias Sueltas 2KG",
         precio: 0,
-        imagen: "Productos/PiedrasSueltas.jpg"  
+        imagen: "Productos/PiedrasSueltas.png"
     }
     //PAJAROS
     ,
     {
         nombre: "Mezcla Gallina 1KG",
         precio: 600,
-        imagen: "Alimentos/MezclaGallina.jpg"  
+        imagen: "Alimentos/MezclaGallina.png"
     }
     ,
     {
         nombre: " OFERTA! Mezcla Gallina 3KG",
         precio: 1700,
-        imagen: "Alimentos/MezclaGallina.jpg" 
+        imagen: "Alimentos/MezclaGallina.png"
     }
     ,
     {
         nombre: "Maiz Partido 1KG",
         precio: 600,
-        imagen: "Alimentos/MaizPartido.png"  
+        imagen: "Alimentos/MaizPartido.png"
     }
     ,
     {
         nombre: "Maiz Partido 3KG",
         precio: 1700,
-        imagen: "Alimentos/MaizPartido.png" 
+        imagen: "Alimentos/MaizPartido.png"
     }
     ,
     {
         nombre: "Alpiste 1KG",
         precio: 4000,
-        imagen: "Alimentos/Alpiste.jpg" 
+        imagen: "Alimentos/Alpiste.png"
     }
     ,
     {
         nombre: "Mijo 1KG",
         precio: 2000,
-        imagen: "Alimentos/Mijo.jpg"   
+        imagen: "Alimentos/Mijo.png"
     }
     ,
     {
         nombre: "Mezcla Canario 1KG",
         precio: 4000,
-        imagen: "Alimentos/Canario.jpg"  
+        imagen: "Alimentos/Canario.png"
     }
 
     ,
     {
         nombre: "Mezcla Cardenal 1KG",
         precio: 2000,
-        imagen: "Alimentos/Cardenal.jpg"
+        imagen: "Alimentos/Cardenal.png"
     }
     ,
     {
         nombre: "Girasol 1KG",
         precio: 3000,
-        imagen: "Alimentos/Girasol.png"  
+        imagen: "Alimentos/Girasol.png"
     }
     ,
     {
         nombre: "Conejin 1KG",
         precio: 1600,
-        imagen: "Alimentos/Conejin.jpg"
+        imagen: "Alimentos/Conejin.png"
     }
 
 
