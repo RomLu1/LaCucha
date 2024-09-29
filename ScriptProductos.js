@@ -52,7 +52,7 @@ const productos = [
     {
         nombre: "KONGO 21KG",
         precio: 0,
-        imagen: ""
+        imagen: "Alimentos/Kongo.jpeg"
 
     }
     ,
@@ -185,14 +185,14 @@ const productos = [
     {
         nombre: "Dog Chow Cachorro 1.5KG",
         precio: 6500,
-        imagen: "Alimentos/DogChowCachorro.jpeg" //Buscar imagen
+        imagen: "Alimentos/DogChowCachorro.jpeg"
 
     }
     ,
     {
         nombre: "Dog Chow Cachorro 21KG",
         precio: 0,
-        imagen: "Alimentos/DogChowCachorro.jpeg" //Buscar imagen
+        imagen: "Alimentos/DogChowCachorro.jpeg"
 
     }
     ,
@@ -225,23 +225,22 @@ const productos = [
     }
     ,
     {
-        nombre: "Vital Balance 20KG",
+        nombre: "Vital Balanced 20KG",
         precio: 0,
-        imagen: ""  //Buscar imagen
+        imagen: "Alimentos/VitalBalanced.jpeg"
 
     }
     ,
     {
         nombre: "Estampa 20KG",
         precio: 0,
-        imagen: ""  //Buscar imagen
-
+        imagen: "Alimentos/EstampaAdultos.jpeg"
     }
     ,
     {
         nombre: "Eukanuba 15KG",
         precio: 0,
-        imagen: ""  //Buscar imagen
+        imagen: "Alimentos/EukanubaAdulto.jpeg"
 
     }
     //GATOS
@@ -250,14 +249,14 @@ const productos = [
     {
         nombre: "¡Chumbale! Gatos 1KG",
         precio: 2200,
-        imagen: ""  //Buscar imagen
+        imagen: "Alimentos/ChumbaleGatos.png"
 
     }
     ,
     {
         nombre: "¡Chumbale! Gatos 15KG",
         precio: 0,
-        imagen: ""  //Buscar imagen
+        imagen: "Alimentos/ChumbaleGatos.png"
 
     }
     ,
@@ -277,13 +276,13 @@ const productos = [
     {
         nombre: "Cooperacion Gatos 1KG",
         precio: 2200,
-        imagen: "" //buscar imagen
+        imagen: "Alimentos/CooperacionGatos.jpg"
     }
     ,
     {
         nombre: "Cooperacion Gatos 10KG",
         precio: 0,
-        imagen: "" //buscar imagen
+        imagen: "Alimentos/CooperacionGatos.jpg"
     }
     ,
     {
@@ -301,37 +300,37 @@ const productos = [
     {
         nombre: "RAZA Gatos 1KG",
         precio: 3500,
-        imagen: "" //Buscar imageen
+        imagen: "Alimentos/RazaGato.png"
     }
     ,
     {
         nombre: "RAZA Gatos 10KG",
         precio: 0,
-        imagen: "" //Buscar imageen
+        imagen: "Alimentos/RazaGato.png"
     }
     ,
     {
         nombre: "RAZA Gatitos 1KG",
         precio: 4000,
-        imagen: "" //Buscar imageen
+        imagen: "Alimentos/RazaGatitos.jpg"
     }
     ,
     {
         nombre: "RAZA Gatitos 10KG",
         precio: 0,
-        imagen: "" //Buscar imageen
+        imagen: "Alimentos/RazaGatitos.jpg"
     }
     ,
     {
         nombre: "Gati 1KG",
         precio: 3500,
-        imagen: "" // buscar imagen
+         imagen: "Alimentos/PurinaGatiAdultoCarne.jpeg"
     }
     ,
     {
         nombre: "Gati 15KG",
         precio: 0,
-        imagen: "" // buscar imagen
+        imagen: "Alimentos/PurinaGatiAdultoCarne.jpeg"
     }
     ,
     {
@@ -367,55 +366,55 @@ const productos = [
     {
         nombre: "Cat Chow Gatitos 1KG",
         precio: 0,
-        imagen: "" //buscar imagen 
+        imagen: "Alimetos/CatChow"
     }
     ,
     {
         nombre: "Excellent Adulto 1KG",
         precio: 9000,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatoAdulto.jpg"
     }
     ,
     {
         nombre: "Excellent Adulto 15KG",
         precio: 0,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatoAdulto.jpg"
     }
     ,
     {
         nombre: "Excellent Urinary 1KG",
         precio: 10000,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatoUrinary.png"
     }
     ,
     {
         nombre: "Excellent Urinary 15KG",
         precio: 0,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatoUrinary.png"
     }
     ,
     {
         nombre: "Excellent Gatitos 1KG",
         precio: 10000,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatitos.png"
     }
     ,
     {
         nombre: "Excellent Gatitos 15KG",
         precio: 0,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/ExcellentGatitos.png"
     }
     ,
     {
         nombre: "Vital Cat Premium 1KG",
         precio: 3300,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/VitalCatPremium.png"
     }
     ,
     {
         nombre: "Vital Cat Premium 7.5KG",
         precio: 0,
-        imagen: ""  //buscar imagen
+        imagen: "Alimentos/VitalCatPremium.png"
     }
     ,
     {
@@ -445,100 +444,100 @@ const productos = [
     {
         nombre: "Pro Plan Urinary 1KG",
         precio: 18000,
-        imagen: "" //buscar imagen  
+        imagen: "Alimentos/ProPlanGatoUrinary.jpg"
     }
     ,
     {
         nombre: "Piedras Sanitarias Absorsol 2KG",
         precio: 0,
-        imagen: "" //buscar imagen  
+        imagen: "Productos/PiedrasAbsorsol.jpg"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best 1.8KG",
         precio: 0,
-        imagen: "" //buscar imagen  
+        imagen: "Productos/The Best.jpg"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best 3KG",
         precio: 0,
-        imagen: "" //buscar imagen  
+        imagen: "Productos/The Best.jpg"
     }
     ,
     {
         nombre: "Piedras Sanitarias The Best Lavanda 3KG",
         precio: 0,
-        imagen: "" //buscar imagen  
+        imagen: "Productos/The Best.jpg"  
     }
     ,
     {
         nombre: "Piedras Sanitarias Sueltas 2KG",
         precio: 0,
-        imagen: "" //buscar imagen  
+        imagen: "Productos/PiedrasSueltas.jpg"  
     }
     //PAJAROS
     ,
     {
         nombre: "Mezcla Gallina 1KG",
         precio: 600,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/MezclaGallina.jpg"  
+    }
     ,
     {
         nombre: " OFERTA! Mezcla Gallina 3KG",
         precio: 1700,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/MezclaGallina.jpg" 
+    }
     ,
     {
         nombre: "Maiz Partido 1KG",
         precio: 600,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/MaizPartido.png"  
+    }
     ,
     {
         nombre: "Maiz Partido 3KG",
         precio: 1700,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/MaizPartido.png" 
+    }
     ,
     {
         nombre: "Alpiste 1KG",
         precio: 4000,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Alpiste.jpg" 
+    }
     ,
     {
         nombre: "Mijo 1KG",
         precio: 2000,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Mijo.jpg"   
+    }
     ,
     {
         nombre: "Mezcla Canario 1KG",
         precio: 4000,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Canario.jpg"  
+    }
 
     ,
     {
-        nombre: "Mezcla Cardena 1KG",
+        nombre: "Mezcla Cardenal 1KG",
         precio: 2000,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Cardenal.jpg"
+    }
     ,
     {
         nombre: "Girasol 1KG",
         precio: 3000,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Girasol.png"  
+    }
     ,
     {
         nombre: "Conejin 1KG",
         precio: 1600,
-        imagen: "" //buscar imagen  
-    } 
+        imagen: "Alimentos/Conejin.jpg"
+    }
 
 
 
