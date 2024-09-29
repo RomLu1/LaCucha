@@ -5,22 +5,22 @@ const productosParaPerros = [
     {
         nombre: "¡Chumbale! perros 21KG",
         precio: 15000,
-        imagen: "Alimentos/chumbalePerro.png"
+        imagen: "Alimentos/ChumbalePerro.png"
     },
     {
         nombre: "¡Chumbale! perros 3KG",
         precio: 2200,
-        imagen: "Alimentos/chumbalePerro.png"
+        imagen: "Alimentos/ChumbalePerro.png"
     },
     {
         nombre: "DR.PERROT 20KG",
         precio: 20000,
-        imagen: "Alimentos/Dr.Perrot.png"
+        imagen: "Alimentos/DR.Perrot.png"
     },
     {
         nombre: "DR.PERROT 3KG",
         precio: 3000,
-        imagen: "Alimentos/Dr.Perrot.png"
+        imagen: "Alimentos/DR.Perrot.png"
     }
     ,
     {
