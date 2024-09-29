@@ -1,6 +1,6 @@
 
 // PRODUCTOS
-const productos = [
+const productosParaPerros = [
     //PERROS
     {
         nombre: "¡Chumbale! perros 21KG",
@@ -244,9 +244,11 @@ const productos = [
         imagen: "Alimentos/Eukanuba.png"
 
     }
+];
+    
     //GATOS
-
-    ,
+    const productosParaGatos = [
+    
     {
         nombre: "¡Chumbale! Gatos 1KG",
         precio: 2200,
@@ -477,8 +479,10 @@ const productos = [
         precio: 0,
         imagen: "Productos/PiedrasSueltas.png"
     }
+];
     //PAJAROS
-    ,
+    const productosParaPajaros = [
+    
     {
         nombre: "Mezcla Gallina 1KG",
         precio: 600,
@@ -540,28 +544,29 @@ const productos = [
         imagen: "Alimentos/Conejin.png"
     }
 
-
-
-
-
 ];
 
-const productosContainer = document.getElementById('productosContainer');
-
-productos.forEach(producto => {
-    const card = `
-        <div class="col-md-3 col-sm-6 mb-4">
-            <div class="card" style="width: 100%;">
-                <img src="${producto.imagen}" class="card-img-top img-fluid" alt="${producto.nombre}">
-                <div class="card-body">
-                    <h5 class="card-title">${producto.nombre}</h5>
-                    <p class="card-text">$${producto.precio.toLocaleString()}</p>
-                    <button class="btn botones" onclick="addToCart('${producto.nombre}', ${producto.precio})">Agregar al carrito</button>
+function mostrarProductos(productos, contenedorId) {
+    const productosContainer = document.getElementById(contenedorId);
+    productos.forEach(producto => {
+        const card = `
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="${producto.imagen}" class="card-img-top img-fluid" alt="${producto.nombre}">
+                    <div class="card-body">
+                        <h5 class="card-title">${producto.nombre}</h5>
+                        <p class="card-text">$${producto.precio.toLocaleString()}</p>
+                        <button class="btn botones" onclick="addToCart('${producto.nombre}', ${producto.precio})">Agregar al carrito</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    `;
-    productosContainer.innerHTML += card;
-});
+        `;
+        productosContainer.innerHTML += card;
+    });
+}
+mostrarProductos(productosParaPerros, 'productos-perros');
+mostrarProductos(productosParaGatos, 'productos-gatos');
+mostrarProductos(productosParaPajaros, 'productos-pajaros');
+
 
 
