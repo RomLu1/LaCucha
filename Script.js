@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             var mensaje = `Hola, me gustaría solicitar un turno.\n\nNombre: ${nombre} ${apellido}\nCorreo: ${email}\nTeléfono: ${telefono}\nTamaño de la mascota: ${tamaño}\nServicio solicitado: ${servicio}`;
     
-            var numeroWhatsApp = '+5491165099450'; 
+            var numeroWhatsApp = '+5491132910011'; 
        
             var url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 

@@ -44,7 +44,7 @@ function checkout() {
     });
     mensaje += `Total: $${total.toFixed(2)}`;
 
-    const numeroTelefono = '5491165099450'; // Reemplaza con tu número de WhatsApp
+    const numeroTelefono = '5491132530607'; // Reemplaza con tu número de WhatsApp
     const url = `https://api.whatsapp.com/send?phone=${numeroTelefono}&text=${encodeURIComponent(mensaje)}`;
 
     // Redirigir a WhatsApp
